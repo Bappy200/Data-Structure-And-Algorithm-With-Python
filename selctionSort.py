@@ -9,7 +9,7 @@ def selection_sort(items):
         if min_index != i:
             items[i], items[min_index] = items[min_index], items[i]
 
-
+ 
 data = [-2, 45, 0, 11, -9]
 selection_sort(data)
 print(data)
